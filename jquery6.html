@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="jquery.js"></script>
+	<script >
+		$(document).ready(function(){
+			$("btn1").click(function(){
+				$("#test1").text( "ram sharma!")
+				
+		});
+			$("btn2").click(function(){
+				$("#test2").html("<b>learning web!</b>")
+			});
+			$("btn3").click(function(){
+				$("#test3").val("tillotama");
+			});
+		});
+
+	</script>
+</head>
+<body>
+	<p id="test1"> this is a paragraph.</p>
+	<p id="test2"> this is another paragraph.</p>
+	<p>Input field: <input type="text" id="test" value="Mickey Mouse" ></p>
+	<button  id="btn1">set text</button>
+<button  id="btn2">set html</button>
+<button  id="btn3">set value</button>
+
+
+</body>
+</html>
